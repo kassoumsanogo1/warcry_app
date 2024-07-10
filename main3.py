@@ -12,8 +12,8 @@ from langchain.memory import ConversationBufferMemory
 
 
 # Configuration des clés API
-#DISCORD_TOKEN = "MTI2MDIzOTk4NTYwMTI4NjI3MA.GuqOg0.F9neq_vSXodA0DmMGWZLOj_lL78pKwnBkDZd38"
-#HUGGINGFACE_TOKEN = "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"
+DISCORD_TOKEN = "MTI2MDIzOTk4NTYwMTI4NjI3MA.GuqOg0.F9neq_vSXodA0DmMGWZLOj_lL78pKwnBkDZd38"
+HUGGINGFACE_TOKEN = "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"
 
 intents = discord.Intents.all()
 intents.message_content = True
